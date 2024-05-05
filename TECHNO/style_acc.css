@@ -1,0 +1,141 @@
+
+
+body{
+    min-width: 320px;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0;
+    background-color: #191919;
+}
+
+.front_page_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 100px 20px 100px;
+    background-color: 191919;
+    border-radius: 100px;
+    opacity: 0,5;
+}
+
+.logo_header{
+    height: 30px;
+    margin-right: 50px;
+}
+
+.front_page_header_center{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    margin-right: 200px;
+    color: white;
+    font-size: 20px;
+}
+
+.front_page_header_right{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.account{
+    height: 20px;
+    width: auto;
+}
+
+.bascket{
+    height: 20px;
+    width: auto;
+}
+
+.name{
+    height: 15px;
+    width: auto;
+    margin: 0;
+}
+
+.wrapper_form{
+    background: url(folder_img/imgfon.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.wrapper{
+    margin: 0 70px;
+}
+
+.accoutn{
+    height: 60px;
+    margin: 10px 0px 10px 100px;
+}
+.input_box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    background: #191919;
+    opacity: 0.5;
+    backdrop-filter: blur(50px);
+    border-radius: 50px;
+    font-size: large;
+    
+}
+
+.form{
+    margin: 100px 10px ;
+    backdrop-filter: blur(50px);
+    border-radius: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.input_box input{
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px rgb(255, 255, 255, .2);
+    color: white;
+}
+
+.input_box input::placeholder{
+    color: white;
+}
+
+.remember{
+    display: flex;
+    justify-content: space-between;
+    margin: -10px 0 15px;
+    align-items: center;
+}
+
+.remember label input{
+    accent-color: #fff;
+    margin-right: 5px;
+}
+
+.btn{
+
+    height: 55px;
+    width: 100%;
+    border: none;
+    border-radius: 100px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.regestr_link{
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    margin: 30px;
+}
+
+.footer{
+    height: 300px;
+}

@@ -1,0 +1,595 @@
+*{
+    font-family: Pirulen Rg;
+    font-family: Muller;
+}
+
+body{
+    min-width: 320px;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0;
+    background-color: #191919;
+}
+
+.front_page{
+    background-image: url();
+}
+   
+
+.front_page_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 100px 20px 100px;
+    background-color: 191919;
+    border-radius: 100px;
+    opacity: 0,5;
+}
+
+.logo_header{
+    height: 30px;
+    margin-right: 50px;
+}
+
+.front_page_header_center{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    margin-right: 200px;
+    color: white;
+    font-size: 20px;
+}
+
+.front_page_header_right{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.front_video_box_video{
+    color: white;
+}
+
+.front_video_box_video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin-bottom: 50px;
+}
+
+
+.account{
+    height: 20px;
+    width: auto;
+}
+
+.bascket{
+    height: 20px;
+    width: auto;
+}
+
+.name{
+    height: 15px;
+    width: auto;
+    margin: 0;
+}
+
+.main_list{
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px 0 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_list_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 100px 0 100px;
+}
+
+.main_list_box_box_list{
+    display: flex;
+    flex-direction: row;
+    gap: 111px;
+    margin-bottom: 111px;
+    margin-top: 111px;
+}
+
+.main_list_box_box{
+    display: flex;
+    flex-direction: row;
+    gap: 111px;
+    margin-bottom: 111px;
+}
+
+.imghairdryier{
+    height: 450px;
+    width: auto;
+}
+
+.imgmassage{
+    height: 450px;
+    width: auto;
+} 
+
+.imgsmartphone{
+    height: 450px;
+    width: auto;
+} 
+
+.imgheadphones{
+    height: 450px;
+    width: auto;
+}
+
+.main_list_box_massage{
+    position: relative;
+}
+
+.background_elif{
+    width: 1519px;
+}
+
+.line{
+    width: 1519px;
+}
+
+
+.new{
+    height: 30px;
+    margin: 100px;
+    margin-bottom: 20px;
+}
+
+.main_new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_aboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgfilters_format{
+    width: 1515px;
+    
+}
+
+.imgnew{
+    height: 600px;
+}
+
+.main_contact{
+    width: 100%;
+}
+.contact{
+    height: 500px;
+}
+
+.contact_img{
+    height: 500px;
+}
+
+.contact_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+.main_contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.footer{
+    height: 300px;
+}
+
+.main_openlist_catalog{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.main_openlist_catalog_linesmart{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.main_openlist_catalog_linehome{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.imgoneplus{
+    height: 400px;
+}
+
+.imgnord_buds{
+    height: 400px;
+}
+
+.imgnord_budspro{
+    height: 400px;
+}
+
+.imgsmartwatch{
+    height: 400px;
+}
+
+.imgpads{
+    height: 400px;
+}
+
+.imgmas_bork{
+    height: 400px;
+}
+
+.imgheaddryer_bork{
+    height: 400px;
+}
+
+.imgcap_bork{
+    height: 400px;
+}
+
+.main_openlist_title_catalog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog{
+    height: 30px;
+    margin: 70px;
+    margin-bottom: 0;
+}
+
+.main_openlist_title_filture{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 50px;
+    justify-content: center;
+    margin: 50px;
+}
+
+.OnePlus12_text{
+    height: 40px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.main_info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.main_info_text{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.button_bot{
+    border-radius: 100px;
+    background-color: transparent;
+    border: 0;
+}
+
+.button_bought{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+}
+
+.sell{
+    height: 20px;
+}
+
+.OnePlus12_text_info{
+    width: 350px;
+    margin-top: 50px;
+}
+
+.imgfigure_photo{
+    height: 500px;
+    width: auto;
+    position: absolute;
+}
+
+.imgoneplus_photo{
+    height: 800px;
+    position: absolute;
+    margin-bottom: -100px;
+    transition-property: all;
+    transition: all ease 1s;
+}
+
+.imgoneplus_photo:hover{
+    margin-bottom: -50px;
+    transition: all 1s;
+    transform: translateY(-5%);
+}
+
+
+.imgnordbuds_photo{
+    height: 500px;
+    position: absolute;
+    margin-bottom: 10px;
+    transition-property: all;
+    transition: all ease 1s;
+}
+
+.imgnordbuds_photo:hover{
+    margin-bottom: 30px;
+    transition: all 1s;
+    transform: translateY(-5%);
+}
+
+.OnePlus_Watch_photo{
+    height: 500px;
+    position: absolute;
+    margin-bottom: 10px;
+    transition-property: all;
+    transition: all ease 1s;
+}
+
+.OnePlus_Watch_photo:hover{
+    margin-bottom: 50px;
+    transition: all 1s;
+    transform: translateY(-5%);
+}
+
+.main_info_photo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: -500px;
+}
+
+.imgfigure_photo_next{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+}
+
+.imgoneplus_photo_next{
+    height: 600px;
+    position: relative;
+    transition-property: all;
+    transition: all ease 1s;
+}
+
+.imgoneplus_photo_next:hover {
+    margin-bottom: -50px;
+    transition: all 1s;
+    transform: translateY(-20%);
+}
+
+.imgnordbuds_photo_next{
+    height: 350px;
+    position: relative;
+    transition-property: all;
+    transition: all ease 1s;
+}
+
+.imgnordbuds_photo_next:hover {
+    margin-bottom: -50px;
+    transition: all 1s;
+    transform: translateY(-20%);
+}
+
+
+.imgnordbuds_photo_pro_next{
+    height: 300px;
+    position: relative;
+    transition-property: all;
+    transition: all ease 1s;
+}
+
+.imgnordbuds_photo_pro_next:hover {
+    margin-bottom: -50px;
+    transition: all 1s;
+    transform: translateY(-20%);
+}
+
+.main_info_photo_next{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.OnePlus12_text_info_img{
+    display: flex;
+    justify-content: center;
+    height: 1500px;
+    width: auto;
+    margin-top: 100px;
+}
+
+.OnePlusNordbuts_text{
+    height: 100px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+
+.OnePlusNordbuts_text_info{
+    width: 350px;
+    margin-top: 80px;
+}
+
+.OnePlusPAD{
+    height: 70px;
+    width: 500px;
+}
+
+.OnePlusWatch_text{
+    height: 40px;
+    width: 550px;
+    margin-bottom: 80px;
+}
+
+.imgfigure_photo_nextt{
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.imgfigureOnePlus_Watch_photo_nextt{
+    height: 400px;
+    width: 380px;
+    position: absolute;
+    margin-right: -150px;
+}
+
+.imgOnePlus_Watch_photo_nextt{
+    height: 350px;
+    position: relative;
+    transition-property: all;
+    transition: all ease 1s;
+}
+
+.imgOnePlus_Watch_photo_nextt:hover {
+    margin-bottom: -50px;
+    transition: all 1s;
+    transform: translateY(-20%);
+}
+
+.imgfigurebork_hair_photo_next{
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    margin-right: -10px;
+}
+
+.return{
+    height: 20px;
+    margin-bottom: 30px;
+}
+
+.borkD617_text{
+    height: 80px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.BORKAVALONbl_text{
+    height: 80px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.icon{
+    height: 60px;
+}
+
+.icom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.rel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text{
+    height: 20px;
+}
+.icon_rel{
+    height: 30px;
+    padding: 19px 0;
+}
+
+.icon_ler{
+    height: 50px;
+    padding: 10px 0;
+}
+
+.icon_erl{
+    height: 50px;
+    padding: 15px 0 ;
+}
+
+.text_erl{
+    height: 35px;
+}
+
+.main_list_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pocht{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pocht{
+    height: 50px;
+    margin: 30px;
+}
+
+.Vector{
+    position: absolute;
+    height: 20px;
+    margin: 50px 0 0 0 ;
+}
+
+.front_video_box{
+    background: url(./folder_video/video_main.mp4);
+}
+
+#myVideo {
+    position: relative;
+    height:auto ;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+.returnn{
+    height: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
